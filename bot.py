@@ -12,12 +12,12 @@ import qrcode
 from telethon import TelegramClient, events, Button
 
 # ── Config ────────────────────────────────────────────────────────────────────
-API_ID      = 0                           # my.telegram.org
-API_HASH    = "your_api_hash"             # my.telegram.org
-BOT_TOKEN   = "your_bot_token"            # @BotFather
-ADMIN_ID    = 0                           # your Telegram user ID
+API_ID      = "27696177"                           # my.telegram.org
+API_HASH    = "0c44906a4feff3b947db76dfa7c57d88"             # my.telegram.org
+BOT_TOKEN   = "7976541534:AAFrGgyHIhNLxU-0-s6F6h2F4PgWMewdNuU"            # @BotFather
+ADMIN_ID    = "6987799874"                           # your Telegram user ID
 
-MONGODB_URI      = "mongodb+srv://..."    # MongoDB Atlas
+MONGODB_URI      = "mongodb+srv://RISHU:RISHU@cluster0.chayq9y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"    # MongoDB Atlas
 MONGODB_DB       = "famapp"
 UPI_ID           = "yourname@fam"         # your FamApp UPI handle
 PAYEE_NAME       = "Your Name"            # shown on QR
